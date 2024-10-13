@@ -1,0 +1,23 @@
+# Ignore the target directory inside the "main" crate
+/main/target/
+
+# Ignore Cargo.lock for libraries (commit for binaries)
+/main/Cargo.lock
+
+# Ignore IDE and editor-specific files
+/.idea/
+/.vscode/
+/*.rs.bk
+
+# Ignore compiled output
+*.rlib
+*.d
+
+# Ignore temporary files and swap files
+*.log
+*.tmp
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
